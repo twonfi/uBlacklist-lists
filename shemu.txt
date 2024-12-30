@@ -3,11 +3,21 @@ name: Shemu (fast fashion) websites
 description: Hides some fast fashion and their social media accounts (mostly "shemu", sites similar to Shein and Temu). Very incomplete. Contributions are welcome.
 homepage: https://github.com/twonfi/uBlacklist-lists
 ---
+### Templates
+# note: adjust accordingly
+
+# social media
+/^([a-z]+:\/\/)?([a-z.-]*\.)?(twitter|x|youtube|tiktok|pinterest|instagram|facebook|snapchat)\.(com)\/((user|add)\/)?@{ _USERNAMES_ }?(\/.*)?$/i
+/^([a-z]+:\/\/)?([a-z.-]*\.)?youtube\.(com)\/channel\/{ _UC CHANNEL ID_ }(\/.*)?$/
+
+### LIST START ###
 # Shein
 *://*.shein.com/*
 /^([a-z]+:\/\/)?([a-z.-]*\.)?(twitter|x|youtube|tiktok|pinterest|instagram|facebook|snapchat)\.(com)\/((user|add)\/)?@?SHEIN(official|sidevideo|_(News)?)?(\/.*)?$/i
+/^([a-z]+:\/\/)?([a-z.-]*\.)?youtube\.(com)\/channel\/UCyLC0byWRwTw16Gc74SPp9w(\/.*)?$/
 
 # Temu
 *://*.temu.com/*
 /^([a-z]+:\/\/)?([a-z.-]*\.)?(twitter|x|youtube|tiktok|pinterest|instagram|facebook)\.(com)\/(user\/)?@?(shop)?temu(\/.*)?$/i
+/^([a-z]+:\/\/)?([a-z.-]*\.)?youtube\.(com)\/channel\/UCkmEIhdd0mgRkDfGLz8BayQ(\/.*)?$/
 
