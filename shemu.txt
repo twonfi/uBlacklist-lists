@@ -1,0 +1,13 @@
+---
+name: Shemu (fast fashion) websites
+description: Hides some fast fashion and their social media accounts (mostly "shemu", sites similar to Shein and Temu). Very incomplete. Contributions are welcome.
+homepage: https://github.com/twonfi/uBlacklist-lists
+---
+# Shein
+*://*.shein.com/*
+/^([a-z]+:\/\/)?([a-z.-]*\.)?(twitter|x|youtube|tiktok|pinterest|instagram|facebook|snapchat)\.(com)\/((user|add)\/)?@?SHEIN(official|sidevideo|_(News)?)?(\/.*)?$/i
+
+# Temu
+*://*.temu.com/*
+/^([a-z]+:\/\/)?([a-z.-]*\.)?(twitter|x|youtube|tiktok|pinterest|instagram|facebook)\.(com)\/(user\/)?@?(shop)?temu(\/.*)?$/i
+
